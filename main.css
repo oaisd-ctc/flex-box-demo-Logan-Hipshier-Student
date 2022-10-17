@@ -1,1 +1,79 @@
+html{
+background-color: rgb(33, 33, 33);
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+  .flex-container{
+    border-style: solid;
+    border-color:mediumseagreen;
+    display: flex;
+    background-color:rgb(33, 33, 33);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    justify-content: center;
+	transform: scale(1);
+	animation: pulse 2s infinite;
+  } 
+  @keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		
+	}
+
+	70% {
+		transform: scale(1);
+		
+	}
+
+	100% {
+		transform: scale(0.95);
+		
+	}
+}
+  .flex-container > div{
+    color: rgb(33, 33, 33);
+    background-color:mediumseagreen;
+    margin: 10px;
+    padding: 20px;
+    font-size:30px;
+    
+	
+  }
+ 
+
+
+  .flex-exp{
+    flex-direction: column;
+    border-style: solid;
+    border-color:mediumseagreen;
+    display: flex;
+    background-color:rgb(33, 33, 33);
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  .flex-exp > div{
+    text-align: center;
+   color: mediumseagreen;
+    margin:10px;
+    padding: .5%;
+    font-size: 30px;
+  }
+  .flex-exp > p{
+    text-align: center;
+    color: mediumseagreen;
+    margin: 10px;
+    padding: .5%;
+    font-size:20px;
+  }
+  
+  h1{
+    text-align: center;
+    color: mediumseagreen;
+  }
+  span{
+    color:rgb(120, 230, 170);
+    text-decoration: underline;
+  }

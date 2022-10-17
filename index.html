@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>FlexBox</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="main.css">
+<style>
+    
+</style>
 
+<body>
+    <h1>Flexbox</h1>
+<div class="flex-exp" id="exp1" style="margin-top:0%">
+  <div>Parent Element</div>
+    <div class="flex-container" id="prop1" style="justify-content: left;">
+
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <p>This is the basic container for a flexbox</p>
+</div>
+
+<div class="flex-exp" id="exp2">
+    <div>Flex Direction</div>
+      <div class="flex-container" id="prop2" style="justify-content: left; flex-direction: column;">
+  
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+      </div>
+      <p>The <span>flex-direction</span> property allows you to change the direction in which the container stacks the flex items</p>
+      <p>This flexbox is adjusted with the <span>flex-direction:column</span> property</p>
+  </div>
+
+  <div class="flex-exp" id="exp3" >
+    <div>Justify Content</div>
+      <div class="flex-container" id="prop3" >
+  
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+      </div>
+      <p> The <span>justify-content</span> property is used to align flex items</p>
+      <p>This flexbox is adjusted with the <span>justify-content:center</span> property</p>
+  </div>
+
+  <div class="flex-exp" id="exp4" >
+    <div>Flex Grow</div>
+      <div class="flex-container" id="prop4" style="justify-content:left">
+  
+          <div>1</div>
+          <div>2</div>
+          <div style="flex-grow: 5">3</div>
+      </div>
+      <p> The <span>flex-grow</span> property is used to resize flex items</p>
+      <p>Flexbox Item 3 is adjusted with the <span>flex-grow:5</span> property</p>
+  </div>
+  
+
+</body>
+</html>
