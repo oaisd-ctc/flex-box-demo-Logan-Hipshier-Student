@@ -12,7 +12,7 @@
     <h1>Flexbox</h1>
 <div class="flex-exp" id="exp1" style="margin-top:0%">
   <div>Parent Element</div>
-    <div class="flex-container" id="prop1" style="justify-content: left;">
+    <div class="flex-container" id="prop1">
 
         <div>1</div>
         <div>2</div>
@@ -23,7 +23,7 @@
 
 <div class="flex-exp" id="exp2">
     <div>Flex Direction</div>
-      <div class="flex-container" id="prop2" style="justify-content: left; flex-direction: column;">
+      <div class="flex-container" id="prop2" style=" flex-direction: column;">
   
           <div>1</div>
           <div>2</div>
@@ -35,7 +35,7 @@
 
   <div class="flex-exp" id="exp3" >
     <div>Justify Content</div>
-      <div class="flex-container" id="prop3" >
+      <div class="flex-container" id="prop3" style="justify-content:center">
   
           <div>1</div>
           <div>2</div>
@@ -47,7 +47,7 @@
 
   <div class="flex-exp" id="exp4" >
     <div>Flex Grow</div>
-      <div class="flex-container" id="prop4" style="justify-content:left">
+      <div class="flex-container" id="prop4" >
   
           <div>1</div>
           <div>2</div>
@@ -56,7 +56,27 @@
       <p> The <span>flex-grow</span> property is used to resize flex items</p>
       <p>Flexbox Item 3 is adjusted with the <span>flex-grow:5</span> property</p>
   </div>
+  <div class="flex-exp" id="exp5" >
+    <div>Flex Order</div>
+      <div class="flex-container" id="prop5" >
   
-
+          <div style="order: 2">1</div>
+          <div style="order: 3">2</div>
+          <div style="order: 1">3</div>
+      </div>
+      <p> The <span>flex-order</span> property is used to reorder flex items</p>
+      <p>Flexbox Items 1-3 are adjusted with the <span>flex-order:(1-3)</span> properties</p>
+  </div>
+  <div class="flex-exp" id="exp6" >
+    <div>Flex Basis</div>
+      <div class="flex-container" id="prop6" >
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-basis: 150px">3</div>
+      </div>
+      <p> The <span>flex-basis</span> property is used to set the initial length of flex items</p>
+      <p>This flexbox is adjusted with the <span>flex-basis:150px</span> property</p>
+  </div>
+  
 </body>
 </html>
