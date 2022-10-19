@@ -37,9 +37,16 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
     font-size:30px;
     
+    
 	
   }
- 
+  .flex-container > p{
+    text-align: center;
+    color: mediumseagreen;
+    margin: 10px;
+    padding: .5%;
+    font-size:20px;
+  }
 
 
   .flex-exp{
@@ -93,17 +100,17 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 10px;
     padding: 20px;
     font-size:30px;
-    
-	
+    border-style: solid; 
+    border-color: mediumseagreen;
   }
   .flex-container1 > div:hover{
-    border-style: solid 2px;
-    border-color: mediumseagreen;
+    transition-duration: .5s;
     color:mediumseagreen;
     background-color:rgb(33, 33, 33);
-    margin: 10px;
-    padding: 20px;
-    font-size:30px;
+    margin-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size:40px;
     
 	
   }
