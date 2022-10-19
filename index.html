@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>FlexBox</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/main.css">
+<style>
+    
+</style>
+
+<body>
+    <h1>Flexbox</h1>
+<div class="flex-exp" id="exp1" style="margin-top:0%">
+  <div>Parent Element</div>
+    <div class="flex-container" id="prop1">
+
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <p>This is the basic container for a flexbox</p>
+</div>
+
+<div class="flex-exp" id="exp2">
+    <div>Flex Direction</div>
+    <p>The <span>flex-direction</span> property allows you to change the direction in which the container stacks the flex items</p>
+       
+       <div class="flex-container" id="prop2.1" style=" flex-direction: column;">
+       <p>flex-direction:column</p>
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+      </div>
+
+
+        <div class="flex-container" id="prop2.2" style=" flex-direction: column-reverse;">
+        
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+<p>flex-direction:column-reverse</p>
+    </div>
+
+
+    <div class="flex-container" id="prop2.3" style=" flex-direction: row;">
+      <p>flex-direction:row</p>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      
+  </div>
+      
+ 
+  <div class="flex-container" id="prop2.4" style=" flex-direction: row-reverse;">
+    
+     <div>1</div>
+    <div>2</div>
+    <div>3</div>
+     <p>flex-direction:row-reverse</p> 
+</div>
+     
+  </div>
+
+  <div class="flex-exp" id="exp3" >
+    <div>Justify Content</div>
+    <p> The <span>justify-content</span> property is used to align flex items</p>
+     <p>justify-content:center</p> 
+     <div class="flex-container" id="prop3.1" style="justify-content:center">
+          
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+      </div>
+       <p>justify-content:flex-start</p>
+       <div class="flex-container" id="prop3.2" style="justify-content:flex-start">
+       
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <p>justify-content:flex-end</p>
+    <div class="flex-container" id="prop3.3" style="justify-content:flex-end">
+      
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+  </div>
+  <p>justify-content:space-around</p>
+  <div class="flex-container" id="prop3.4" style="justify-content:space-around">
+    
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
+<p>justify-content:space-between</p>
+<div class="flex-container" id="prop3.5" style="justify-content:space-between">
+  
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+      
+      
+  </div>
+  <div class="flex-exp" id="exp7" >
+    <div>Flex Wrap</div>
+    <p style="margin-bottom:0.5px"> The <span>flex-wrap</span> property is used to wrap flex items <span>(May have to resize window to see application)</span></p>
+    
+      <p>flex-wrap:wrap</p>
+      <div class="flex-container" id="prop7.1" style="flex-wrap:wrap;">
+          
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>
+          <div>10</div>
+          <div>11</div>
+          <div>12</div>
+          <div>13</div>
+          <div>14</div>
+          <div>15</div>
+          
+      </div>
+      <p>flex-wrap:nowrap</p>
+      <div class="flex-container" id="prop7.2" style="flex-wrap:nowrap;">
+      
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+    </div>
+      <p>flex-wrap:wrap-reverse</p>
+    <div class="flex-container" id="prop7.3" style="flex-wrap:wrap-reverse;">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+      <div>11</div>
+      <div>12</div>
+      <div>13</div>
+      <div>14</div>
+      <div>15</div>
+  </div>
+     
+  </div>
+
+  <div class="flex-exp" id="exp4" >
+    <div>Flex Grow</div>
+      <div class="flex-container" id="prop4" >
+  
+          <div>1</div>
+          <div>2</div>
+          <div style="flex-grow: 5">3</div>
+      </div>
+      <p> The <span>flex-grow</span> property is used to resize flex items</p>
+      <p>Flexbox Item 3 is adjusted with the <span>flex-grow:5</span> property</p>
+  </div>
+  <div class="flex-exp" id="exp5" >
+    <div>Flex Order</div>
+      <div class="flex-container" id="prop5" >
+  
+          <div style="order: 2">1</div>
+          <div style="order: 3">2</div>
+          <div style="order: 1">3</div>
+      </div>
+      <p> The <span>flex-order</span> property is used to reorder flex items</p>
+      <p>Flexbox Items 1-3 are adjusted with the <span>flex-order:(1-3)</span> properties</p>
+  </div>
+  <div class="flex-exp" id="exp6" >
+    <div>Flex Basis</div>
+      <div class="flex-container" id="prop6" >
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-basis: 150px">3</div>
+      </div>
+      <p> The <span>flex-basis</span> property is used to set the initial length of flex items</p>
+      <p>This flexbox is adjusted with the <span>flex-basis:150px</span> property</p>
+  </div>
+  <div class="flex-exp" id="ec" >
+    <div>Extra Credit</div>
+      <div class="flex-container1" id="ec1" style="justify-content:center" >
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+      </div>
+  </div>
+</body>
+</html>
